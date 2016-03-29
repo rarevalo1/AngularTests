@@ -1,0 +1,45 @@
+.container{
+
+	width: 50%;
+	margin: 0 auto 
+}
+
+
+.lcd{
+	width: 200px;
+	height:25px;
+	background: #95a5a6;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+ .btn {
+    background-color: #2c3e50;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.zero span .btn {
+	width: 103px;
+}
+
+.btn:hover {
+    background-color: #5cbf2a;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    outline: none;
+    border: none;
+}
+
+.btn:focus{
+	outline: 0;
+}
